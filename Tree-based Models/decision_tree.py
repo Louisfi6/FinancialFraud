@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import LabelEncoder
 from joblib import dump
 
-#on charge le dataset à partir d'un fichier CSV
+#on charge le dataset à partir du fichier CSV
 df = pd.read_csv('clean.csv')
 
 #on converti les caractéristiques catégorielles en valeurs numériques
